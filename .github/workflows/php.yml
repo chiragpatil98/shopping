@@ -19,7 +19,8 @@ jobs:
 
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
-      working-directory: admin/assets/plugins/moment/composer.json
+      #working-directory: admin/assets/plugins/moment/composer.json
+      working-directory: admin/assets/plugins/bootstrap-modal/composer.json
 
     - name: Cache Composer packages
       id: composer-cache
